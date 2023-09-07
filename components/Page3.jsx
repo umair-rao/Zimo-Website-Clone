@@ -11,7 +11,7 @@ const Page3 = () => {
       src="/images/page3img.png"
       alt="Description of the image"
       width={700}
-      height={102}
+      height={60}
     />
     </div>
     <div className="page3-footer">
