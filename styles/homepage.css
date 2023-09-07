@@ -1,0 +1,435 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.page1 {
+    width: 100vw;
+    height: 48vw;
+}
+
+.page1-title {
+    padding-top: 20%;
+    padding-left: 3%;
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 3em;
+}
+
+.page2 {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 48vw;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+.page-image {
+    margin-left: 4%;
+}
+
+.page-text {
+    text-align: center;
+    width: 100%;
+    font-size: 0.7em;
+}
+
+.page3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 48vw;
+    font-size: 30px;
+    font-family: 'Lato';
+    position: relative;
+}
+
+.page3::before {
+    content: "";
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    height: 30%;
+    transform: translateX(-50%);
+    width: 1px;
+    background-color: #BE9F56;
+    opacity: 80%;
+  }
+
+.zimo-icons {
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.page4 {
+    background-color: black;
+    width: 100vw;
+    height: 48vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page5 {
+    position: relative;
+    background-image: url(../public/images/page5img.png);
+    background-size: cover;
+    height: 48vw;
+    width: 100vw;
+    background-color: black;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.page5-title,
+.page6-title,
+.page7-title,
+.page8-title,
+.page9-title,
+.page10-title,
+.page11-title,
+.page12-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    color: #ffff;
+    font-size: 2em;
+    opacity: 90%;
+}
+
+.page6,
+.page7,
+.page8,
+.page9,
+.page10,
+.page11,
+.page12,
+.page14,
+.page16 {
+    width: 100vw;
+    height: 48vw;
+    background-color: black;
+    background-size: cover;
+    position: relative;
+}
+
+.page6 {
+    background-image: url(../public/images/page6img.png);
+}
+
+.page6-img-div {
+    opacity: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 2%;
+}
+
+.page6-img-div img {
+    width: 15em;
+    height: 6em;
+}
+
+.page7 {
+    background-image: url(../public/images/page7img.png);
+}
+
+.page8 {
+
+    background-image: url(../public/images/page8img.png);
+}
+
+.page9 {
+    background-image: url(../public/images/page9img.png);
+}
+
+.page10 {
+    background-image: url(../public/images/page10img.png);
+}
+
+.page11 {
+    background-image: url(../public/images/page11img.png);
+}
+
+.page12 {
+    background-image: url(../public/images/page12img.png);
+}
+
+.page13 {
+    width: 100vw;
+    height: 48vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.page13-title {
+    font-size: 1em;
+    margin-top: 9%;
+}
+
+.page13-footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-bottom: 3%; 
+    width: 30%;
+}
+
+.page13-footer img { 
+    height: 2.5em;
+}
+
+.page13-footer-img {
+    margin-right: 20%;
+}
+
+.page14-title,
+.page16-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffff;
+    font-size: 1.3em;
+    width: 100%;
+    text-align: center;
+}
+
+.page15 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 48vw;
+}
+
+.page15 p {
+    font-size: 1.8em;
+}
+
+.page17 {
+    background-image: url(../public/images/page17img1.png);
+    background-size: 80% 70%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 50vw;
+}
+
+.page17-zimo_icon {
+    margin-top: 10%;
+}
+
+.page17-text {
+    text-align: center;
+
+}
+
+.app-store img {
+    width: 5em;
+}
+
+.page17-footer {
+    text-align: center;
+    opacity: 70%;
+    font-size: 0.7em;
+}
+
+.page17-footer-dif {
+    color: #BE9F56;
+}
+
+.page18 {
+    background-color: black;
+    background-image: url(../public/images/page18img1.png);
+    background-size: 40% 40%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+
+.page18-img{
+    opacity: 0.9;
+    width: 100vw;
+    height: 48vw;
+}
+
+.page18-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    color: #ffff;
+    font-size: 2em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70%;
+}
+
+.page18-heading {
+    margin-top: 30%;
+}
+
+.page19 {
+    width: 100vw;
+    height: 48vw;
+    background-color: #AEAEAE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 9%;
+}
+
+.pg19-footer {
+    text-align: center;
+    padding-top: 25%;
+    width: 50%;
+}
+
+.pg19-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 0.8em;
+}
+
+.pg191 {
+    background-color: black;
+    height: 48vw;
+    width: 100vw;
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.pg191-top {
+    text-align: center;
+    padding-top: 2%;
+}
+
+.pg191-top img {
+    width: 10%;
+}
+
+.pg191-top p {
+    font-size: em;
+}
+
+.terms {
+    display: flex;
+    flex-direction: row;
+    padding-left: 1%;
+}
+
+.terms1,
+.terms2 {
+    padding-left: 3%;
+    width: 40%;
+    height: 50vw;
+    text-align: justify;
+    font-size: 0.49em;
+}
+
+.page192-top {
+    display: flex;
+    padding-left: 1%;
+}
+
+.page20 {
+    width: 97vw;
+    height: 66em;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+    position: relative;
+}
+
+.page20 p {
+    padding-left: 5%;
+}
+
+.contact-title {
+    padding-left: 80%;
+}
+
+.page20-Group2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 125%;
+}
+
+.zimo-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 20%;
+    padding-top: 20%;
+}
+
+.zimo-details p,
+.zimo-contact p {
+    font-size: 0.7em;
+}
+
+.page20-zimo-title {
+    width: 60%;
+    padding-bottom: 5%;
+}
+
+.page20-zimo-icon {
+    width: 15%;
+}
+
+.zimo-contact {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.page2-footer {
+    padding-top: 33%;
+    padding-right: 20%;
+}
+
+.qr {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-bottom: 1%;
+}
+
+
+
+
+
+
