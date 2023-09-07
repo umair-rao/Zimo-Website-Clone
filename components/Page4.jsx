@@ -2,8 +2,7 @@ import Image from "next/image";
 
 const Page4 = () => {
   return (
-    <div>
-         <div className="page4">
+      <div className="page4">
         <div className="page4img">
         <Image
           src="/images/page4img.png"
@@ -12,8 +11,10 @@ const Page4 = () => {
           height={400}
         />
         </div>
-       </div>
-    </div>
+        <div className="page4-logo">
+        <p>ZIMO GROUP</p>
+        </div>
+      </div>
   )
 }
 
