@@ -4,7 +4,7 @@ const Page1 = () => {
   return (
     <div>
       <div className="page1">
-        <h1 className="page1-title">ZIMO GROUP</h1>
+        <p className="page1-title">ZIMO GROUP</p>
       </div>
     </div>
   );

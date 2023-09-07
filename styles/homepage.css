@@ -14,8 +14,6 @@ body {
 .page1-title {
     padding-top: 20%;
     padding-left: 3%;
-    font-family: 'Lato';
-    font-weight: 500;
     font-size: 3em;
 }
 
@@ -47,7 +45,6 @@ body {
     width: 100vw;
     height: 48vw;
     font-size: 30px;
-    font-family: 'Lato';
     position: relative;
 }
 
