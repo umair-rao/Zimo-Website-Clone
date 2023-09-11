@@ -3,8 +3,8 @@
 const Page18 = () => {
   return (
     <div className="page18">
-        <div>
-        <img src="/images/page18img2.png" alt="" className="page18-img"/>
+        <div className="page18-img">
+        {/* <img src="/images/page18img2.png" alt="" /> */}
         </div>
         <div className="page18-text">
           <div className="page18-heading">
